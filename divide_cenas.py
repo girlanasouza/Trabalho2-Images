@@ -153,8 +153,8 @@ def bic(img,jaTaQuantizada):
     return histogramaBorda, histogramaInterior
 
 # Abrir o vídeo
-nomeVideo = nome
-video = cv2.VideoCapture(nomeVideo+'.mp4')
+nomeVideo = "input/v10.mp4"
+video = cv2.VideoCapture(nomeVideo)
 contadorFrames=0
 achou = True
 frames = 0
